@@ -14,7 +14,7 @@ Usage
 
 		python omr_main.py source.png
 
-That should calculate and print a threshold for you image, create file staff_removal_source.png without horisontal staff lines and ask you to press enter to continue. If the lines were not removed in that file, you must increase a threshold and rerun a tool. Otherwise, proceed to the next step.
+	That should calculate and print a threshold for you image, create file staff_removal_source.png without horisontal staff lines and ask you to press enter to continue. If the lines were not removed in that file, you must increase a threshold and rerun a tool. Otherwise, proceed to the next step.
 
 2. Press enter to continue recognition. OpenCV should find and recognize all the musical symbols in a file without the lines. Open the file recognition_output_source.png and check if all of then are marked with rectangles. If not, recognition threshold should be increased.
 
