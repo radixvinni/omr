@@ -6,7 +6,7 @@ I was desperately trying to find the OMR library that works and the only thing i
 Usage
 ===
 
-0. If you have a pdf file convert it to image. On Unix you would using imagemagick:
+0. If you have a pdf file convert it to image. On Unix you would use imagemagick:
 
 		convert -density 150 -quality 90 -background white -alpha remove your.pdf source.png
 
