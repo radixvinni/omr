@@ -16,7 +16,7 @@ Usage
 
 	That should calculate and print a threshold for you image, create file staff_removal_source.png without horisontal staff lines and ask you to press enter to continue. If the lines were not removed in that file, you must increase a threshold and rerun a tool. Otherwise, proceed to the next step.
 
-2. Press enter to continue recognition. OpenCV should find and recognize all the musical symbols in a file without the lines. Open the file recognition_output_source.png and check if all of then are marked with rectangles. If not, recognition threshold should be increased.
+2. Press enter to continue recognition. OpenCV should find and recognize all the musical symbols in a file without the lines. Open the file recognition_output_source.png and check if all symbols are marked with rectangles. If not, recognition threshold must be increased.
 
 3. Than the script performs reconstruction of the Lilypond and MusicXML files by dictionary with recognised musicalObjects (see module omr_reconstruction.py). If some of them were not recognized but must be present, that would give an Exception on this step. Otherwise it will produce files source.ly (in Lilypond format) and source.xml (in musicXML).
 
